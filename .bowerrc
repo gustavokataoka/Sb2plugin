@@ -1,0 +1,8 @@
+{
+  "directory": "webroot/vendors",
+  "scripts": {
+    "preinstall": "",
+    "preuninstall": "",
+    "postinstall": "sh postinstall.sh"
+  }
+}
