@@ -1,0 +1,18 @@
+{
+    "name": "gustavokataoka/sb2plugin",
+    "description": "My CakePHP3 Theme based on SB Admin 2 as a plugin.",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "theme"],
+    "homepage": "https://github.com/gustavokataoka/sb2plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Kataoka",
+            "homepage": "https://github.com/gustavokataoka",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "cakephp/cakephp": ">=3.2.0 <4.0"
+    }
+}
