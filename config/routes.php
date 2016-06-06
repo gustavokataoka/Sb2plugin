@@ -2,7 +2,10 @@
 
 use Cake\Routing\Router;
 
-Router::plugin('SB2', function ($routes) {
-    $routes->connect('/', ['controller' => 'Examples', 'action' => 'display', 'home']);
-    $routes->connect('/examples/*', ['controller' => 'Examples', 'action' => 'display']);
-});
+Router::plugin(
+    'Sb2plugin',
+    ['path' => '/sb2plugin'],
+    function ($routes) {
+        $routes->fallbacks('DashedRoute');
+    }
+);
