@@ -10,10 +10,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <?= $this->Html->image('brasao.png', ['alt' => 'brasao']) ?>
-        <?= $this->Html->image('logo-orgao.png', ['alt' => 'logo']) ?>
+        <?= $this->Html->image('Sb2plugin.brasao.png', ['alt' => 'brasao']) ?>
+        <?= $this->Html->image('Sb2plugin.logo-orgao.png', ['alt' => 'logo']) ?>
         <?= $this->Html->link('Cake Skeleton', ['controller' => 'Pages', 'action' => 'home'], ['class' => 'navbar-brand']) ?>
     </div>
-    <?= $this->element('Layout' . DS . 'navbar-menu'); ?>
-    <?= $this->element('Layout' . DS . 'side-menu'); ?>
+    <?= $this->element('Sb2plugin.Layout' . DS . 'navbar-menu'); ?>
+    <?= $this->element('Sb2plugin.Layout' . DS . 'side-menu'); ?>
 </nav>

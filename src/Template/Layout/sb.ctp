@@ -32,47 +32,47 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <?= $this->Html->meta('icon') ?>
 
-    <?= $this->Html->css('../vendors/bootstrap/dist/css/bootstrap.min.css') ?>
-    <?= $this->Html->css('../vendors/metisMenu/dist/metisMenu.min.css') ?>
+    <?= $this->Html->css('/Sb2plugin/vendors/bootstrap/dist/css/bootstrap.min.css') ?>
+    <?= $this->Html->css('/Sb2plugin/vendors/metisMenu/dist/metisMenu.min.css') ?>
 
-    <?= $this->Html->css('../vendors/font-awesome/css/font-awesome.min.css') ?>
+    <?= $this->Html->css('/Sb2plugin/vendors/font-awesome/css/font-awesome.min.css') ?>
 
-    <?= $this->Html->css('../vendors/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css') ?>
-    <?= $this->Html->css('../vendors/datatables-responsive/css/responsive.bootstrap.css') ?>
+    <?= $this->Html->css('/Sb2plugin/vendors/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css') ?>
+    <?= $this->Html->css('/Sb2plugin/vendors/datatables-responsive/css/responsive.bootstrap.css') ?>
 
-    <?= $this->Html->css('../vendors/morrisjs/morris.css') ?>
+    <?= $this->Html->css('/Sb2plugin/vendors/morrisjs/morris.css') ?>
 
     <!-- jQuery -->
-    <?= $this->Html->script('../vendors/jquery/dist/jquery.min.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/jquery/dist/jquery.min.js') ?>
 
     <!-- Bootstrap Core JavaScript -->
-    <?= $this->Html->script('../vendors/bootstrap/dist/js/bootstrap.min.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/bootstrap/dist/js/bootstrap.min.js') ?>
 
     <!-- Metis Menu Plugin JavaScript -->
-    <?= $this->Html->script('../vendors/metisMenu/dist/metisMenu.min.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/metisMenu/dist/metisMenu.min.js') ?>
 
     <!-- DataTables JavaScript -->
-    <?= $this->Html->script('../vendors/datatables/media/js/jquery.dataTables.min.js') ?>
-    <?= $this->Html->script('../vendors/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js') ?>
-    <?= $this->Html->script('../vendors/datatables-responsive/js/dataTables.responsive.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/datatables/media/js/jquery.dataTables.min.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/datatables-responsive/js/dataTables.responsive.js') ?>
 
     <!-- Morris Charts JavaScript -->
-    <?= $this->Html->script('../vendors/raphael/raphael.min.js') ?>
-    <?= $this->Html->script('../vendors/morrisjs/morris.min.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/raphael/raphael.min.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/morrisjs/morris.min.js') ?>
 
     <!-- Flot Charts JavaScript -->
-    <?= $this->Html->script('../vendors/flot/excanvas.min.js') ?>
-    <?= $this->Html->script('../vendors/flot/jquery.flot.js') ?>
-    <?= $this->Html->script('../vendors/flot/jquery.flot.pie.js') ?>
-    <?= $this->Html->script('../vendors/flot/jquery.flot.resize.js') ?>
-    <?= $this->Html->script('../vendors/flot/jquery.flot.time.js') ?>
-    <?= $this->Html->script('../vendors/flot.tooltip/js/jquery.flot.tooltip.min.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/flot/excanvas.min.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/flot/jquery.flot.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/flot/jquery.flot.pie.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/flot/jquery.flot.resize.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/flot/jquery.flot.time.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/flot.tooltip/js/jquery.flot.tooltip.min.js') ?>
 
     <!-- Custom -->
-    <?= $this->Html->css('timeline.css') ?>
-    <?= $this->Html->css('sb-admin-2.css') ?>
-    <?= $this->Html->css('main.css') ?>
-    <?= $this->Html->script('sb-admin-2.js') ?>
+    <?= $this->Html->css('Sb2plugin.timeline.css') ?>
+    <?= $this->Html->css('Sb2plugin.sb-admin-2.css') ?>
+    <?= $this->Html->css('Sb2plugin.main.css') ?>
+    <?= $this->Html->script('Sb2plugin.sb-admin-2.js') ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
@@ -88,7 +88,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 </head>
 <body>
 <div id="wrapper">
-    <?= $this->element('Layout' . DS . 'header'); ?>
+    <?= $this->element('Sb2plugin.Layout' . DS . 'header'); ?>
 
     <?= $this->Flash->render() ?>
 
@@ -96,7 +96,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->fetch('content') ?>
     </div>
 
-    <?= $this->element('Layout' . DS . 'footer'); ?>
+    <?= $this->element('Sb2plugin.Layout' . DS . 'footer'); ?>
 </div>
 </body>
 </html>
