@@ -1,3 +1,4 @@
+<?php $this->layout = 'Sb2plugin.login'; ?>
 <div class="row">
     <div class="login-panel panel panel-default">
         <div class="panel-heading">
@@ -17,7 +18,7 @@
                             <input name="remember" type="checkbox" value="Remember Me">Remember Me
                         </label>
                     </div>
-                    <?= $this->Html->link('Login', '/', ['class' => 'btn btn-lg btn-success btn-block']); ?>
+                    <?= $this->Html->link('Login', ['controller' => 'Examples', 'action' => 'home'], ['class' => 'btn btn-lg btn-success btn-block']); ?>
                 </fieldset>
             </form>
         </div>

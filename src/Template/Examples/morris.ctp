@@ -84,7 +84,7 @@
     <!-- /.col-lg-6 -->
 </div>
 <!-- /.row -->
-<?php $this->Html->script('morris-data.js', ['block' => 'script']) ?>
+<?php $this->Html->script('Sb2plugin.morris-data.js', ['block' => 'script']) ?>
 <script type="text/javascript">
     $(function () {
         Morris.Line({

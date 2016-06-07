@@ -32,18 +32,18 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <?= $this->Html->meta('icon') ?>
 
-    <?= $this->Html->css('../vendors/bootstrap/dist/css/bootstrap.min.css') ?>
-    <?= $this->Html->css('../vendors/font-awesome/css/font-awesome.min.css') ?>
+    <?= $this->Html->css('/Sb2plugin/vendors/bootstrap/dist/css/bootstrap.min.css') ?>
+    <?= $this->Html->css('/Sb2plugin/vendors/font-awesome/css/font-awesome.min.css') ?>
 
     <!-- jQuery -->
-    <?= $this->Html->script('../vendors/jquery/dist/jquery.min.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/jquery/dist/jquery.min.js') ?>
 
     <!-- Bootstrap Core JavaScript -->
-    <?= $this->Html->script('../vendors/bootstrap/dist/js/bootstrap.min.js') ?>
+    <?= $this->Html->script('/Sb2plugin/vendors/bootstrap/dist/js/bootstrap.min.js') ?>
 
     <!-- Custom -->
-    <?= $this->Html->css('sb-admin-2.css') ?>
-    <?= $this->Html->css('main.css') ?>
+    <?= $this->Html->css('Sb2plugin.sb-admin-2.css') ?>
+    <?= $this->Html->css('Sb2plugin.main.css') ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
