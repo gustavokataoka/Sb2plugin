@@ -1,9 +1,9 @@
 {
-    "name": "gustavokataoka/sb2plugin",
-    "description": "My CakePHP3 Theme based on SB Admin 2 as a plugin.",
+    "name": "gustavokataoka/Sb2plugin",
+    "description": "A CakePHP3 Theme based on SB Admin 2 as a plugin.",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "theme"],
-    "homepage": "https://github.com/gustavokataoka/sb2plugin",
+    "homepage": "https://github.com/gustavokataoka/Sb2plugin",
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sb2plugin\\": "src"
+            "Sb2plugin\\": "src"
         }
     }
 }
