@@ -24,7 +24,7 @@
     }
   },
   "scripts": {
-    "post-install-cmd": [
+    "post-update-cmd": [
       "bower install"
     ]
   }
