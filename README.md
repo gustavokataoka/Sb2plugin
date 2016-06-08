@@ -2,6 +2,16 @@
 
 A cakephp 3 theme based on [SB Admin 2](http://startbootstrap.com/template-overviews/sb-admin-2) as a plugin.
 
+## Pre-installation
+
+It's necessary to have bower installed in the machine.
+You can install bower by doing theses steps in terminal:
+
+```
+$ sudo apt-get install npm
+$ sudo npm install -g bower
+```
+
 ## Installation
 
 1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
