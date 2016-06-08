@@ -25,7 +25,7 @@
   },
   "scripts": {
     "post-update-cmd": [
-      "bower install"
+      "touch instalou"
     ]
   }
 }
