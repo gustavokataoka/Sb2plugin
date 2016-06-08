@@ -1,5 +1,5 @@
 {
-    "name": "gustavokataoka/Sb2plugin",
+    "name": "gustavokataoka/sb2plugin",
     "description": "A CakePHP3 Theme based on SB Admin 2 as a plugin.",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "theme"],
