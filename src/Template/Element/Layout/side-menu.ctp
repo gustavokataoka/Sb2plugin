@@ -13,46 +13,46 @@
                 <!-- /input-group -->
             </li>
             <li>
-                <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'home']) ?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'home']) ?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
             </li>
             <li>
                 <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'flot']) ?>">Flot Charts</a>
+                        <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'flot']) ?>">Flot Charts</a>
                     </li>
                     <li>
-                        <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'morris']) ?>">Morris.js Charts</a>
+                        <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'morris']) ?>">Morris.js Charts</a>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
             </li>
             <li>
-                <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'tables']) ?>"><i class="fa fa-table fa-fw"></i> Tables</a>
+                <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'tables']) ?>"><i class="fa fa-table fa-fw"></i> Tables</a>
             </li>
             <li>
-                <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'forms']) ?>"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'forms']) ?>"><i class="fa fa-edit fa-fw"></i> Forms</a>
             </li>
             <li>
                 <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'panels-wells']) ?>">Panels and Wells</a>
+                        <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'panels-wells']) ?>">Panels and Wells</a>
                     </li>
                     <li>
-                        <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'buttons']) ?>">Buttons</a>
+                        <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'buttons']) ?>">Buttons</a>
                     </li>
                     <li>
-                        <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'notifications']) ?>">Notifications</a>
+                        <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'notifications']) ?>">Notifications</a>
                     </li>
                     <li>
-                        <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'typography']) ?>">Typography</a>
+                        <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'typography']) ?>">Typography</a>
                     </li>
                     <li>
-                        <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'icons']) ?>"> Icons</a>
+                        <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'icons']) ?>"> Icons</a>
                     </li>
                     <li>
-                        <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'grid']) ?>">Grid</a>
+                        <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'grid']) ?>">Grid</a>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
@@ -92,10 +92,10 @@
                 <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Examples<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'blank']) ?>">Blank Page</a>
+                        <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'blank']) ?>">Blank Page</a>
                     </li>
                     <li>
-                        <a href="<?= $this->Url->build(['controller' => 'Examples', 'action' => 'login']) ?>">Login Page</a>
+                        <a href="<?= $this->Url->build(['plugin' => 'Sb2plugin', 'controller' => 'Examples', 'action' => 'login']) ?>">Login Page</a>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->
