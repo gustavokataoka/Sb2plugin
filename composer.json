@@ -28,7 +28,10 @@
       "bower install"
     ],
     "post-update-cmd": [
-      "touch instalou"
+      "bower install"
+    ],
+    "post-package-install": [
+      "bower install"
     ]
   }
 }
