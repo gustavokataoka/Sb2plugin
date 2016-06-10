@@ -30,7 +30,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->fetch('title') ?>
     </title>
 
-    <?= $this->Html->meta('icon') ?>
+    <?= $this->Html->meta('icon', '/Sb2plugin/favicon.ico') ?>
 
     <?= $this->Html->css('/Sb2plugin/vendors/bootstrap/dist/css/bootstrap.min.css') ?>
     <?= $this->Html->css('/Sb2plugin/vendors/metisMenu/dist/metisMenu.min.css') ?>
@@ -68,11 +68,16 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->script('/Sb2plugin/vendors/flot/jquery.flot.time.js') ?>
     <?= $this->Html->script('/Sb2plugin/vendors/flot.tooltip/js/jquery.flot.tooltip.min.js') ?>
 
+    <?= $this->Html->script('/Sb2plugin/vendors/typeahead.js/dist/typeahead.jquery.min.js') ?>
+
+    <?= $this->Html->script('/Sb2plugin/vendors/jquery-highlight/jquery.highlight.js') ?>
+
     <!-- Custom -->
     <?= $this->Html->css('Sb2plugin.timeline.css') ?>
     <?= $this->Html->css('Sb2plugin.sb-admin-2.css') ?>
     <?= $this->Html->css('Sb2plugin.main.css') ?>
     <?= $this->Html->script('Sb2plugin.sb-admin-2.js') ?>
+    <?= $this->Html->script('Sb2plugin.menu-search.js') ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>

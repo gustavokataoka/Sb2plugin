@@ -1,14 +1,11 @@
+<?php $this->Html->script('Sb2plugin.menu-search.js', ['block' => 'script']); ?>
 <div class="navbar-default sidebar" role="navigation">
     <div class="sidebar-nav navbar-collapse collapse" id="sidebar">
         <ul class="nav" id="side-menu">
             <li class="sidebar-search">
                 <div class="input-group custom-search-form">
-                    <input type="text" class="form-control" placeholder="Search..."/>
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </span>
+                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                    <input id="sideMenuSearchField" type="text" class="form-control" placeholder="Buscar..."/>
                 </div>
                 <!-- /input-group -->
             </li>
